@@ -32,6 +32,20 @@ html, body{
     left: calc(50% - 100px);
 }
 
+.frame {
+    position: relative;
+}
+.frame:before {
+    position: absolute;
+    content:"";
+    height: 100px;
+    width: 200px;
+    border-radius: 100%;
+    top: 120px;
+    left: 150px;
+    border: 2px solid #000;
+}
+
 .taken{
     height: 100px!important;
     width: 100px!important;
